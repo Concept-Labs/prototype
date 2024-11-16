@@ -1,0 +1,27 @@
+{
+    "name": "concept-labs/prototype",
+    "description": "(C)oncept-Labs PHP Prototype",
+    "keywords": ["php","prototype"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mtr",
+            "email": "info.concept.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\Prototype\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    }
+
+}
