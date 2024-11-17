@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "concept-labs/singleton": "^1"
     },
     "autoload": {
         "psr-4": {
