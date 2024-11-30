@@ -20,7 +20,13 @@ trait PrototypableTrait
      */
     public function __clone()
     {
-        return Prototyper::deepClone($this);
+
+        $clone = Prototyper::deepClone($this);
+        if ($clone instanceof ResetableInterface) {
+            $clone->reset();
+        }
+
+        return $clone;
     }
     
 }
